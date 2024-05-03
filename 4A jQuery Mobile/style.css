@@ -1,0 +1,49 @@
+
+/* Custom styles */
+.ui-page {
+background-color: #f3f3f3; /* Set background color for all pages */
+width: 100%; /* Ensure full width */
+min-height: 100%; /* Ensure full height */
+}
+.ui-header {
+background-color: #333; /* Set background color for header */
+color: #fff; /* Set text color for header */
+}
+.ui-footer {
+background-color: #333; /* Set background color for footer */
+color: #fff; /* Set text color for footer */
+}
+.ui-content {
+padding: 15px; /* Add padding to content area */
+}
+.ui-grid-a {
+margin-top: 20px; /* Add some space between blocks */
+}
+.ui-block-a,
+.ui-block-b {
+width: 100%; /* Make blocks take full width */
+}
+.ui-listview li a {
+color: #333; /* Set link color */
+}
+.ui-listview li a:hover {
+background-color: #ddd; /* Add hover effect to links */
+}
+p {
+color: #555; /* Set text color */
+font-size: 16px; /* Set font size */
+}
+.destination-img {
+max-width: 100%; /* Make images responsive */
+height: auto; /* Ensure aspect ratio */
+display: block; /* Center image horizontally */
+margin: 0 auto; /* Center image horizontally */
+margin-bottom: 15px; /* Add some space below the image */
+}
+.destination-info {
+border: 1px solid #ccc; /* Add border around destination info */
+padding: 10px; /* Add padding to destination info */
+background-color: #fff; /* Set background color for destination info */
+margin-bottom: 20px; /* Add some space below destination info */
+border-radius: 5px; /* Add border radius */
+}
