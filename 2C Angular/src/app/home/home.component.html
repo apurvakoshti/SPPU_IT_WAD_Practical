@@ -1,0 +1,22 @@
+<div style="margin: 50px;">
+    <h2>Data</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Roll No.</th>
+          <th>Email</th>
+          <!-- Add more table headers as needed -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of signupData">
+          <td>{{ data.name }}</td>
+          <td>{{ data.rollNo }}</td>
+          <td>{{ data.email }}</td>
+          <!-- Add more table cells as needed -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
