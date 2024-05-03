@@ -1,0 +1,19 @@
+Following the steps for creating Docker Container Environment:-
+
+Step 1- Install Docker from its official website.
+Step 2- Sign Up with your account.
+Step 3- Open the Docker Desktop.
+Step 4- Open command prompt on windows.
+Step 5- Run the below commands
+        1)docker -v
+        2)docker images
+        3)docker ps
+        4)Go to docker hub and copy the command: docker pull openjdk/python
+        5)docker run --name JAVA -it -d OpenJDK/python
+        6)docker ps
+        7)docker exec -it JAVA jshell
+        8) java code
+        9)/exit
+        10)docker ps
+        11)docker stop id
+        12)docker container rm id
