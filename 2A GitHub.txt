@@ -1,0 +1,16 @@
+A.Create version control account on GitHub and using Git commands to create repository and push your code to GitHub. 
+
+Step 1:- Initialize a Git Repository
+              git init
+
+Step 2:-Add the Files to the Staging Area
+            git add .
+
+Step 3:-Commit the Changes
+            git commit -m "Your commit message here"
+
+Step 4:-Connect to Your Remote Repository
+            git remote add origin <repository_URL>
+
+Step 5:-Push the Changes
+            git push -u origin master
